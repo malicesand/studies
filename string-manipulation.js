@@ -1,9 +1,9 @@
-/*
-                STRING MANIPULATION
-                                                */
-
-
-
+/**
+ * 0:
+ * 1: With Operators
+ * 2: With Methods
+ * 
+ */
 /*
 ACCESS
 String positions are ordered on an index, 
