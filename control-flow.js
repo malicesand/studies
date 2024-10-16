@@ -7,11 +7,13 @@
  * 
  * 2: Else-if
  * Creating a chain of if-else-if makes it clear that the conditions are related and that only one of them will resolve to true. An else-if chain the code will stop executing as soon as a condition is met, saving processing time. Unlike if-statements, else-if syntax cannot stand on it's own. These conditionals must be preceded by an if-statement, but they can be followed by more else-if statements or an else statment. 
+ * 
+ * 
  * 3: Else
- * 
  * There is no condtion contained within an else-statement, making it operate as a default. It implies that if none of the if-statemnts and/or else-if statements conditions were met, this final code block is the one to be executed. Like else-if, an else statment cannot stand on it's own. It does not need to be in a chain with else-if, but can directly follow just an if-statment. 
- * 4: Switch
  * 
+ * 
+ * 4: Switch
  * A switch statemnt can make for a cleaner code than an if-else-if chain in certain use cases. This method of control flow involves comparing the value of the input expression (the switch) with the values of cases nested in code block. When a match is found, the associated block of code will be executed. To stop the code from moving onto the next case, a break keyword can be put at the end of the switch block. If no match is found, a default can be placed at the very end of the case list. This default operates much like the else-statement in the if-else-if chain
  */
 
